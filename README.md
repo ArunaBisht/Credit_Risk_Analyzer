@@ -38,7 +38,7 @@ To install PyViz and its dependencies in your Conda dev environment, complete th
 
 ## Usage
 
-![](snapshots/classification_matrix.png)
+![](snapshots/classification matrix.png)
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 .
