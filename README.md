@@ -28,7 +28,7 @@ Before running the application first install the following dependencies.
 To install PyViz and its dependencies in your Conda dev environment, complete the following steps:
 
 1. From your terminal, log in to your Conda dev environment.
-
+.
 2. Install the PyViz packages by using the conda install command as follows:
     
 	conda install -c plotly plotly=4.13.
