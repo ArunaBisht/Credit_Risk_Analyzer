@@ -38,13 +38,18 @@ To install PyViz and its dependencies in your Conda dev environment, complete th
 
 ## Usage
 
+
+Classification matrix - this shows both 'healthy loan' and 'high risk loans' are good but stronger in prediciting 'healthy loans' and slightly weaker in predicting 'high risk loan'
+
 ![](snapshots/classification_matrix.png)
 
+---------------------------------------------
+
+Classification matrix after resampling 
 ![](snapshots/re-sampling.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 .
 ## Contributors
-
-
+Done by me Aruna
