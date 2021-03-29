@@ -45,7 +45,7 @@ Classification matrix - this shows both 'healthy loan' and 'high risk loans' are
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-Classification matrix after resampling 
+Classification matrix after resampling  -  Strong in predciting healthy loans but 'high risk loan' got more weaker slightly changing from 0.86 to 0.85. However, after re-sampling we observed that recall value of 'high risk loan' increased from 0.90 to 0.99 and hence the model slightly got better to predict high risk loans. 
 
 ![](snapshots/re-sampling.png)
 
