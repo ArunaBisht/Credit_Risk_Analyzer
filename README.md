@@ -57,7 +57,7 @@ Classification matrix after resampling  -  Strong in predciting healthy loans bu
 ![](snapshots/re-sampling.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
-Analysis - Both models before and after re-sampling, the values of 'precision' and 'recall' i shigh. Hence, both model predics all the classes properly. The F1 is good too. There is a slight increase in F1 'macro avg' score from 0.94 to 9.95 after re-sampling overall and also in increase in F1 score of 'weak loans'. 
+Analysis - Both models before and after re-sampling, the values of 'precision' and 'recall' is high. Hence, both are good and both model predics all the classes properly. The F1 is good too. There is a slight overall increase in F1 'macro avg' score from 0.94 to 9.95 after re-sampling overall and also in increase in F1 score of 'weak loans'. 
 
 
 ----------------------------------------------------------------------------------------------------------------------------
