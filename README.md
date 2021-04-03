@@ -40,6 +40,9 @@ To install PyViz and its dependencies in your Conda dev environment, complete th
 
 
 Classification matrix - this shows both 'healthy loan' and 'high risk loans' are good but stronger in prediciting 'healthy loans' and slightly weaker in predicting 'high risk loan'
+What percent of your predictions were correct? - As seen from the 'precision score' of healthy loans '0', accuracy of positive predictions is 100%. For 'weak loans', it's 85%.
+What percent of the positive cases did you catch? - As seen from the 'recall score' of health loans '0',fraction of positives 'good loans' that were correctly identified is 99%. For weak loans, it's 90%.
+What percent of positive predictions were correct? - As seen from the F score of health loans '0', percent of positive predictions correct is 100%. For 'weak loans', it's 88%
 
 ![](snapshots/classification_matrix.png)
 
@@ -47,9 +50,17 @@ Classification matrix - this shows both 'healthy loan' and 'high risk loans' are
 
 Classification matrix after resampling  -  Strong in predciting healthy loans but 'high risk loan' got more weaker slightly changing from 0.86 to 0.85. However, after re-sampling we observed that recall value of 'high risk loan' increased from 0.90 to 0.99 and hence the model slightly got better to predict high risk loans. 
 
+What percent of your predictions were correct? - As seen from the 'precision score' of healthy loans '0', accuracy of positive predictions is 100%. For 'weak loans', it's 84%.
+What percent of the positive cases did you catch? - As seen from the 'recall score' of health loans '0',fraction of positives 'good loans' that were correctly identified is 99%. For weak loans, it's 99%.
+What percent of positive predictions were correct? - As seen from the F score of health loans '0', percent of positive predictions correct is 100%. For 'weak loans', it's 91%
+
 ![](snapshots/re-sampling.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
+Analysis - Both models before and after re-sampling, the values of 'precision' and 'recall' i shigh. Hence, both model predics all the classes properly. The F1 is good too. There is a slight increase in F1 'macro avg' score from 0.94 to 9.95 after re-sampling overall and also in increase in F1 score of 'weak loans'. 
+
+
+----------------------------------------------------------------------------------------------------------------------------
 
 .
 ## Contributors
