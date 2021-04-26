@@ -1,4 +1,7 @@
 # Credit_risk_analysis
+
+![](snapshots/intro_credit.png)
+
 Credit risk poses a classification problem that’s inherently imbalanced. This is because healthy loans easily outnumber risky loans. Through this analysis, we used various techniques to train and evaluate models with imbalanced classes. We used dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers
 
 ## Technologies
